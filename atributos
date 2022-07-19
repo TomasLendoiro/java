@@ -10,7 +10,7 @@ public class atributos{
      y=7.98;
      z='a';
      //mostrando 2 atributos por pantalla a la vez.
-    System.out.println("el valor de x es: "+x+"el valor de y es: "+y);
+    System.out.println("el valor de x es: "+x+" el valor de y es: "+y);
     //mostrando solo 1 atributo char por pantalla.
     System.out.println("el valor de z es: "+z);
   }
