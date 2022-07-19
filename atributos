@@ -1,17 +1,21 @@
-//primer programa utilizando atributos
+package atributos;
 
-public class atributos{
-  public static void main (String[] arg){
-    int x; //entero:10,8,-5...
-    double y; //flotante :10,5678 ,-7,20145 numeros con decimales.
-     char z; // caracteres:A,z,u,1,5
-     
-     x=10;
-     y=7.98;
-     z='a';
-     //mostrando 2 atributos por pantalla a la vez.
-    System.out.println("el valor de x es: "+x+" el valor de y es: "+y);
-    //mostrando solo 1 atributo char por pantalla.
-    System.out.println("el valor de z es: "+z);
-  }
-}
+public class atributos {
+	//primer programa utilizando atributos
+
+
+	  public static void main (String[] arg){
+	    int x; //entero:10,8,-5...
+	    double y; //flotante :10,5678 ,-7,20145 numeros con decimales.
+	     char z; // caracteres:A,z,u,1,5
+	     
+	     x=10;
+	     y=7.98;
+	     z='a';
+	     //mostrando 2 atributos por pantalla a la vez.
+	    System.out.println("el valor de x es: "+x+"el valor de y es: "+y);
+	    //mostrando solo 1 atributo char por pantalla.
+	    System.out.println("el valor de z es: "+z);
+	  }
+	}	
+
