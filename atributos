@@ -1,7 +1,7 @@
 //primer programa utilizando atributos
 
 public class atributos{
-  public void main (String[] arg){
+  public static void main (String[] arg){
     int x; //entero:10,8,-5...
     double y; //flotante :10,5678 ,-7,20145 numeros con decimales.
      char z; // caracteres:A,z,u,1,5
