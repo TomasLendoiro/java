@@ -1,0 +1,20 @@
+package valoresxteclado;
+//API SON CLASSES PREFABRICADAS( conjunto de instrucciones 
+//por ejemplo scanner= toma un valor por teclado y lo asigna a un atributo	)
+import java.util.Scanner;
+
+public class valoresxteclado {
+	
+	public static void main (String[] arg){
+		double a=0;
+		//para levantar valores por teclado se utiliza una variable de tipo Scanner
+		// una vez declarada con el operador punto . accedemos a las funciones
+		Scanner s=new Scanner(System.in);
+				System.out.println("ingresa un valor :");
+				//si el valor es int usariamos nextint();
+				//y en caso de numeros flotantes con decimales nextdouble();
+        //necesitamos igualar una variable a otra de tipo Scanner para levantar el valorpor teclado y guardarlo en ella.
+					a=s.nextDouble();
+		System.out.println("el valor de a ingresado por teclado es:"+a);
+	}
+}
