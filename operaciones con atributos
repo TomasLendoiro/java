@@ -1,0 +1,24 @@
+package operaciones;
+
+public class operaciones {
+		
+	public static void main(String[]arg) {
+			
+			double a=23,b=10,c=0,m=0,r=0,d=0,resto=0;
+			
+			c=a+b;
+				r=a-b;
+					m=a*2;
+						d=a/b;
+							resto=a%b;
+								//sumar ahorrando un variable
+									a+=a+b;
+				
+				System.out.println("el valor de a + b almacenado en c es: "+c);
+					System.out.println("el valor de a - b almacenado en r es: "+r);
+						System.out.println("el valor de a multiplicado por 2 almacenado en m es: "+m);
+							System.out.println("el valor de a/b almacenado en d es :"+d);
+								System.out.println("el valor del resto de a/b almacenado en resto es: "+resto);
+									System.out.println("el valor de a + b ahorrando una variable almacenado en a es: "+a);
+	}
+	}
