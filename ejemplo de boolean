@@ -1,0 +1,19 @@
+package booleanycondicionalesanidados;
+
+import java.util.Scanner;
+
+public class booleanycondicionalesanidados {
+	public static void main(String[]arg) {
+		
+		boolean resultado; // true o false
+		
+		resultado=false;
+		if(!resultado) {//"== comparar" "!=distinto de o contrario"
+			//con el operador"!+el valor booleano (true o false)" invertimos el resultado de if si es verdadero saldra por falso"
+			System.out.print("es verdad");
+		}else {
+			System.out.print("es falso");
+		}
+		}
+
+}
