@@ -1,0 +1,20 @@
+package ifelseejnumpar;
+	import java.util.Scanner;
+//comprobar si un numero ingresado por teclado es par 
+	public class ifelseejnumpar {
+		public static void main (String[]arg) {
+	int a,d;
+		Scanner s=new Scanner(System.in);
+	
+	System.out.println("ingresa un valor :");
+		a=s.nextInt();
+			d=a%2;
+	if(d==0) {
+		System.out.println("el numero es par");
+		}
+			else 
+		{
+		System.out.println("el numero es inpar ");
+		}
+	}
+}
