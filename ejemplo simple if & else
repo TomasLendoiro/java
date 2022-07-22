@@ -1,0 +1,15 @@
+package ifelseejnumpar;
+
+public class ifelseejnumpar {
+	
+	public static void main (String[]arg) {
+	
+		int x=5;
+		if(x==4) {
+			// "== igual que" "< menor que"
+			// "> mayor que" "<=que" ">=que" "!= distinto que"
+			System.out.println("es cierto");
+		}else
+		System.out.println("es falso");
+	}
+}
