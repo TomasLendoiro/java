@@ -1,0 +1,29 @@
+package booleanycondicionalesanidados;
+
+import java.util.Scanner;
+
+public class booleanycondicionalesanidados {
+	public static void main(String[]arg) {
+		
+		double temp;
+		Scanner s=new Scanner(System.in);
+		System.out.println("introduce una temperatura");
+		temp=s.nextDouble();
+		if(temp>30) {
+System.out.println("con "+temp+"ºC hace calor");
+		}else if(temp>25){
+			
+			System.out.println("con"+temp+"ºC esta normal ");
+			}else if(temp>20){
+				
+				System.out.println("con"+temp+"ºC esta normal 20ºC ");
+				}else if(temp>15){
+					
+					System.out.println("con"+temp+"ºC esta normal ");
+					}else {
+		System.out.println("hace frio");
+		}
+		System.out.println("estoy fuera");
+		}
+
+}
