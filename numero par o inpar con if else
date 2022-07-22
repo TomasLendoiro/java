@@ -10,11 +10,11 @@ package ifelseejnumpar;
 		a=s.nextInt();
 			d=a%2;
 	if(d==0) {
-		System.out.println("el numero es par");
+		System.out.println("el numero "+a+" es par");
 		}
 			else 
 		{
-		System.out.println("el numero es inpar ");
+		System.out.println("el numero "+a+" es inpar ");
 		}
 	}
 }
