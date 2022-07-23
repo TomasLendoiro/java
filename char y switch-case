@@ -1,0 +1,27 @@
+package charyswitch;
+
+public class charyswitch {
+
+	public static void main(String[]arg) {
+		char letra;
+		letra='%';
+		switch(letra) {
+		case 'b':
+			System.out.println("el valor es b");
+			letra='9';
+			break;
+		case 'a':
+			System.out.println("el valor es a");
+			break;
+		case '3':
+			System.out.println("el valor es 3");
+			break;
+		case '%':
+			System.out.println("el valor es %");
+			break;
+		
+		default:
+			System.out.println("el valor que estas buscando no esta en los case");
+		}
+	}
+}
