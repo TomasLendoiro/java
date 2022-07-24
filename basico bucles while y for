@@ -1,0 +1,22 @@
+package bucles;
+
+public class bucles {
+	public static void main(String[]arg) {
+		
+		int i=0;
+		int j;
+		
+		while(i<5) {
+			System.out.print(i+", ");
+			i+=1;
+		}
+	System.out.println("estoy fuera del bucle while ");
+
+	for (j=0;j<5;j+=1) {
+		System.out.print(j+ ", ");
+		
+	}
+	System.out.println("estoy fuera del bucle for");
+	}
+
+}
