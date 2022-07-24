@@ -1,0 +1,24 @@
+//mostrar todos los numeros que hay entre dos numeros introducidos por teclado
+package bucles;
+
+import java.util.Scanner;
+
+public class bucles {
+	public static void main(String[]arg) {
+		int a,b,i,suma=0;
+		Scanner S=new Scanner(System.in);
+		
+	System.out.println("introduce el numero menor");
+	a=S.nextInt();
+	System.out.println("introduce el numero mayor");
+	b=S.nextInt();
+	i=a;
+	while(i<b) {
+		suma+=i;
+		i++;
+		
+	
+	}
+System.out.print("el valor total de la suma es "+suma);
+}
+}
