@@ -1,0 +1,20 @@
+//mostrar un programa que pida 2 numeros y uno debe ser mayor que otro
+package bucles;
+
+import java.util.Scanner;
+
+public class bucles {
+	public static void main(String[]arg) {
+		int a,b;
+		Scanner S=new Scanner(System.in);
+		
+	System.out.print("introduce el numero menor");
+	a=S.nextInt();
+	do {
+		System.out.print("introduce un numero mayor al anterior ");
+		b=S.nextInt();
+	}while(b<a);
+	
+	
+}
+}
