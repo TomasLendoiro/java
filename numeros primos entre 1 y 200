@@ -1,0 +1,22 @@
+package numeros;
+//encontrar cuantos numeros primos hay entre 1 y 200
+public class numeros {
+	public static void main(String[]arg) {
+		
+		boolean resultado= true;
+		
+		for(int i =1;i<200;i++) {
+			resultado=true;
+			for(int j=2; j<i; j++) {
+				if(i % j == 0 ) {
+					resultado= false;
+				}
+			}
+		if(resultado) {
+			System.out.print(i+", ");
+		}
+		}
+		
+	}
+
+}
