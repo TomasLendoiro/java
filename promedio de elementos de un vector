@@ -1,0 +1,29 @@
+package vectores;
+//calcula la el promedio de los elementos de un vector
+import java.util.Scanner;
+
+public class vectores {
+	public static void main (String[]arg) {
+	int num;
+	Scanner S=new Scanner(System.in);
+	
+	System.out.println("introduce la longitud del vector");
+	num=S.nextInt();
+	
+	double[]vec=new double[num];
+	double total=0;
+	
+	for(int i=0;i<num;i++) {
+		System.out.println("introduce valores al vector");
+		vec[i]=S.nextDouble();
+		
+		}
+	for(int i=0; i<num;i++) {
+		total+=vec[i];
+		
+	}
+	total/=num;
+	System.out.println("el promedio de los elementos del vector es"+total);
+	}
+	
+}
