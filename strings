@@ -1,0 +1,17 @@
+package strings;
+
+public class strings {
+	public static void main(String[]arg) {
+		String a="UNA CEBOLLA";
+		String b="UNA SANDIA";
+		System.out.println("VECTOR A CONTIENE -->"+a);
+		System.out.println("VECTOR B CONTIENE -->"+b);
+		System.out.println("el vector a tiene "+a.length()+" posiciones de memoria");
+		System.out.println("el vector a tiene "+b.length()+" posiciones de memoria");
+	if(a==b) {
+		System.out.println("son iguales");
+	}else {
+		System.out.println("no son iguales");
+	}
+	}
+}
