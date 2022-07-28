@@ -1,3 +1,25 @@
+package strings;
+
+import java.util.Scanner;
+
+public class strings {
+	public static void main(String[]arg) {
+	
+		Scanner S=new Scanner(System.in);
+
+	String frase1,frase2;
+
+	int desplazamiento;
+	
+	frase2="";
+	
+	String min="abcdefghijklmnopqrstuvwxyz";
+	String may="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	
+	System.out.println("introduce la frase");
+	
+	frase1=S.nextLine();
+	
 	System.out.println("introduce la clave de desplazamiento que quieras");
 	
 	desplazamiento = S.nextInt();
